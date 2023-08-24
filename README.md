@@ -30,3 +30,6 @@ Classe ser utilizadas na mesma  página  e combinadas com outras classe.
 #### ID
 Regras criadas com seletor  do tipo id ,são mais versátil ,ou seja  você desenvolvedor  determina onde  aplicar o id e sua formatação.
 **ATENÇÃO! você não pode aproveitar  IDS, ou seja ,seletor |id deve ser  çusado somente para  um elemento por páginas.
+
+# Site 
+CSS https://htmlcheatsheet.com/
