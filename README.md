@@ -17,3 +17,12 @@ Regra do CSS.
 Seletor
 propriedade 
 valor
+---
+### Sobre seletores
+#### TAG
+Regras criadas com seletor tag ,são mais generalistas, ou seja ,  a formatação  srá  aplicada á todas  as tags que casem co o seletor.
+
+#### Classe
+Regras criadas com seletor do tipo classe ,são mais versáteis , ou seja , você  desenvolvedor  determina  onde aplicar  a classe  e sua formatação.
+
+Classe ser udtilizadas na mesma  página  e combinadas com outras classe.
