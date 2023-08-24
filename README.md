@@ -20,9 +20,13 @@ valor
 ---
 ### Sobre seletores
 #### TAG
-Regras criadas com seletor tag ,são mais generalistas, ou seja ,  a formatação  srá  aplicada á todas  as tags que casem co o seletor.
+Regras criadas com seletor tag ,são mais generalistas, ou seja ,  a formatação  será  aplicada á todas  as tags que casem com o seletor.
 
 #### Classe
 Regras criadas com seletor do tipo classe ,são mais versáteis , ou seja , você  desenvolvedor  determina  onde aplicar  a classe  e sua formatação.
 
-Classe ser udtilizadas na mesma  página  e combinadas com outras classe.
+Classe ser utilizadas na mesma  página  e combinadas com outras classe.
+
+#### ID
+Regras criadas com seletor  do tipo id ,são mais versátil ,ou seja  você desenvolvedor  determina onde  aplicar o id e sua formatação.
+**ATENÇÃO! você não pode aproveitar  IDS, ou seja ,seletor |id deve ser  çusado somente para  um elemento por páginas.
