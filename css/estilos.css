@@ -1,0 +1,68 @@
+/* E\ste z\arquivo faremos  todas as regras 
+CSS necessárias para a formatação do site. */
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   background-image:url(../imagens/watercolor.png);
+
+   
+
+}
+
+
+h1{color: red;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color:white;
+padding: 10px;
+background-color:black;
+
+border:blue solid 8px;
+text-align: center;
+text-transform: uppercase;
+box-shadow: lightblue 0 0 15px inset;
+
+
+}
+
+
+#container{
+    background-color:white;
+    width: 80%;
+    margin: auto;
+    box-shadow: black 0 0 5px;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+
+h2{
+    font-size: 20px;
+    border-bottom: solid 5px;
+    border-left: dashed 5px;
+    padding-left: 10px;
+    margin-left: 20px;
+}
+
+/* Grupo de seletores */
+h3,p, figcaption{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h3{
+    background: linear-gradient(to right, rgb(177, 217, 231),rgb(152, 152, 218),yellow );
+}
+
+.destaque{
+    background-color: black;
+    padding: 3px;
+    color: white;
+    border-radius:4px ;
+}
+
+
+/* Reset /Limpeza */
+figure{
+    margin: 0;
+    text-align: center;
+}
+
+img{max-width: 100%;}

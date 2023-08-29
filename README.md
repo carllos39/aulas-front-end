@@ -18,6 +18,9 @@ Seletor
 propriedade 
 valor
 ---
+### Externa
+Arquivo CSS dedicado a elaboração  de regras de CSS.
+Este arquivo será  conectado a cada  página HTML do seu  site , pemitindo assim centralizar toda  a estilização  de um projeto.
 ### Sobre seletores
 #### TAG
 Regras criadas com seletor tag ,são mais generalistas, ou seja ,  a formatação  será  aplicada á todas  as tags que casem com o seletor.
@@ -33,3 +36,6 @@ Regras criadas com seletor  do tipo id ,são mais versátil ,ou seja  você dese
 
 # Site 
 CSS https://htmlcheatsheet.com/
+
+
+
