@@ -83,6 +83,55 @@ li{
 
 li::marker{
     content: "👮‍♀️";
+    font-size: 16px;
 }
+
+/* Regras para Menu */
+nav{
+    text-align: center;
+}
+/* Regra para estado do link acionado  */
+nav a{
+    text-decoration: none;
+    font-weight: bold;
+    background-color: aliceblue;
+    color: darkblue;
+    width: 50%;
+    display:inline-block;
+    padding: 10px;
+    /* Alterando o box model fazendo que o padding  e border  não de  BO nas dimensões finais do elemento! */
+    box-sizing: border-box;
+}
+/* Seletor pseudo classe :last-child */
+nav a:first-child{
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+
+}
+
+/* Seletor pseudo classe :last-child */
+nav a:last-child{
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+/* Regra para link acionado */
+nav a:hover,nav a:focus{
+    background-color: darkblue;
+    color: white;
+}
+
+figure img{
+    filter: grayscale();
+    transition: 2s;
+    clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+
+}
+
+figure img:hover{
+    filter:none;
+    clip-path: polygon(0 0, 54% 0, 100% 0, 100% 50%, 100% 100%, 48% 100%, 0 100%);
+}
+
 
 
