@@ -38,4 +38,7 @@ Regras criadas com seletor  do tipo id ,são mais versátil ,ou seja  você dese
 CSS https://htmlcheatsheet.com/
 
 
-
+#### Grupo de selrtores
+regra composta por outro  seletor ,utíl quando  objetivo é  aplicar uma  mesma formatação em diversos elementos diferentes.
+#### Descendente
+regra para formatação  de elementos  que estão  dentro de outros  elementos , permitindo  assim  um  grau  maior  de precisão  ou especifidade.
