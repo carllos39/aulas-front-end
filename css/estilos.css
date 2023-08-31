@@ -1,5 +1,5 @@
-/* E\ste z\arquivo faremos  todas as regras 
-CSS necessárias para a formatação do site. */
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
+
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    background-image:url(../imagens/oriental-tiles.png);
@@ -11,7 +11,7 @@ body{
 
 
 h1{color: red;
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-family:'Rubik Iso',Verdana, Geneva, Tahoma, sans-serif;
 color:white;
 padding: 10px;
 background-color:black;
@@ -36,6 +36,9 @@ animation-duration: 5s;
     box-shadow: black 0 0 5px;
     padding: 16px;
     border-radius: 8px;
+    max-width: 800px;
+    min-width: 500px
+    ;
 }
 
 
@@ -152,6 +155,16 @@ figure img:hover{
         transform: translateY(0);} 
 
 }
+
+/* Pseudo -classe chird:
+first-child
+last-child
+nth-child */
+
+li:first-child{color:red ;}
+li:last-child{color: blue;}
+li:nth-child(3){color:orange ;}
+li:nth-child(2){color:orange ;}
 
 
 
