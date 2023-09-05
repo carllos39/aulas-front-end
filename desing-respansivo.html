@@ -4,13 +4,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        /* 01-Etapa : Regra de uso geral ,ou  seja , regras  que vão definir  estilos como  um  todo,não  importando  muito  o tamanho de tela  ou tipo  de dispositivo */
+*{box-sizing: border-box;}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: lightblue;
+}
+h1{
+    color: darkblue;
+    
+}
+hr{
+    border: none;
+    height: 3px;
+    background-color: darkblue;
+}
+b{
+    background-color: white;
+    padding: 2px;
+    border-radius: 4px;
+}
+.div{
+    width: 75%;
+}
+b{
+    background-color:burlywood;
+}
+p{
+  padding: 18px;  
+}
+
+/* Etapa 02: Regras de uso condicional ,ou seja  regra que serão  aplcada  de acordo  com determinadas  situações(exemplo :regras  que somente funcionarão  se site tiver uma tela maior que 1000px).Estas regras especiais /condicionais são  conhecidas como Media Queris  */
+
+@media screen  and (min-width:550px){
+    body{
+       background-color: lightgreen;
+    }
+    h1{
+            text-align: center;
+            width: 30%;
+        }
+        hr{
+            width: 30%;
+            
+        }  
+}
+@media screen and (min-width:720px){
+    .exemplo{
+        width: 75%;
+        margin: auto;
+    }
+    b{background-color: red;}
+    p{font-size: 18px;}
+    
+}
+
+@media screen and(min-width:895px) {
+    h1{background: linear-gradient(to left,lightblue,transparent);}
+    .exemplo{
+        background-color: aquamarine;
+    }
+}
+
+    </style>
 </head>
 <body>
-    <div class="Exemplo">
+    <div class="exemplo">
     <h1>Desing responsivo(ou responsividade)</h1>
     <p>Conjunto de tecnicas  de desenvolvimento  front-end  visando  a construção de sites  que  funcione corretamente em dispositivo com telas  de tamanho variados.</p>
 
-<p>Existem duas  abordagem de desenvolvimento responsivo: <b>Mobile First</b> e <b></Desketop First</p>
+<p>Existem duas  abordagem de desenvolvimento responsivo: <b>Mobile First</b> e <b>Desketop First.</b></p>
+
+<p>A mais usada é a <b>Mobile First</b></p>
     </di>
 </body>
 </html>
