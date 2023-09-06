@@ -5,6 +5,116 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Layout-Responsivo</title>
+    <style>
+        /* Regras de uso geral */
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: lightblue;
+        }
+
+        .container {
+            background-color: whitesmoke;
+            box-shadow: black 0 0 5px;
+            padding: 5px;
+        }
+
+        h1,
+        h2,
+        p {
+            margin: 0;
+            padding: 0;
+        }
+
+        p {
+            padding: 5px 0;
+        }
+
+        h1 {
+            background-color: pink;
+        }
+
+        nav {
+            background-color: yellow;
+
+        }
+
+        article {
+            padding: 8px;
+        }
+
+        #ColunaA {
+            background-color: orange;
+        }
+
+        #ColunaB {
+            background-color: purple;
+        }
+
+        #ColunaC {
+            background-color: green;
+        }
+
+        footer {
+            background-color: gray;
+            height: 100px;
+        }
+
+        /* Regras condicionais (Midia Queris)*/
+
+        @media screen and (min-width:522px) {
+            header {
+                display: flex;
+                justify-content: space-between;
+
+            }
+
+            h1 {
+                width: 40%;
+            }
+
+            nav {
+                width: 60%;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+            }
+        }
+
+        @media screen and (min-width:773px) {
+            #ColunaA{width: 70%;}
+            #ColunaB{width: 30%;}
+            #ColunaC{width: 100%;}
+
+            main{
+                display: flex;
+                /* Flex -Wrap quando hablitado faz com que  os elementos  sejam "quebrados" para linha de baixo caso não haja espaço.*/
+                flex-wrap: wrap;
+            }  
+        }
+
+        @media screen and (min-width:890px ){
+         .container{
+            max-width: 1000px;
+            margin: auto;
+         }
+         header{
+            height: 100px;
+         }
+         #ColunaA,#ColunaB,#ColunaC{
+            width: 50%;
+         }
+          main{flex-wrap:nowrap ;
+          /* gap:8px;  */
+          justify-content: space-between;
+          }
+        }
+            
+        
+    </style>
 </head>
 
 <body>
@@ -18,15 +128,14 @@
             </nav>
         </header>
         <main>
-
-            <article id="Coluna3">
+            <article id="ColunaA">
                 <h2>Coluna1</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A mollitia vel non libero eveniet dolorum
                     labore beatae doloribus suscipit commodi laudantium, aspernatur repellat, temporibus voluptatem
                     ratione quo ducimus reiciendis nulla.</p>
             </article>
 
-            <article id="Coluna3">
+            <article id="ColunaB">
                 <h2>Coluna2</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A mollitia vel non libero eveniet dolorum
                     labore beatae doloribus suscipit commodi laudantium, aspernatur repellat, temporibus voluptatem
@@ -40,7 +149,7 @@
             </article>
         </main>
         <footer>
-            <h2>Rodape</h2>
+            <h2>Rodapé</h2>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit, dolorem?</p>
         </footer>
     </div>
